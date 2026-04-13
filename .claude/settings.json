@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tailwindcss:*)",
+      "Bash(./node_modules/.bin/tailwindcss init:*)",
+      "Bash(npm init:*)",
+      "Bash(npm run:*)",
+      "Bash(node dist/index.js)",
+      "Bash(curl -s http://localhost:5000/health)",
+      "Bash(kill %1)"
+    ]
+  }
+}
