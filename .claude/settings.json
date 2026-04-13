@@ -7,7 +7,15 @@
       "Bash(npm run:*)",
       "Bash(node dist/index.js)",
       "Bash(curl -s http://localhost:5000/health)",
-      "Bash(kill %1)"
+      "Bash(kill %1)",
+      "Bash(node -e ':*)",
+      "Bash(curl -s http://localhost:5000/api/transactions)",
+      "Bash(curl -s -X POST http://localhost:5000/api/transactions -H \"Content-Type: application/json\" -d '{\"amount\":100,\"description\":\"test\"}')",
+      "Bash(netstat -ano)",
+      "Bash(taskkill /PID 36452 /F)",
+      "Bash(cmd //c \"taskkill /PID 36452 /F\")",
+      "Bash(curl -s -X POST http://localhost:5000/api/transactions -H 'Content-Type: application/json' -d '{\"amount\":100,\"description\":\"lunch\"}')",
+      "Bash(curl -s -X DELETE http://localhost:5000/api/transactions/42)"
     ]
   }
 }
